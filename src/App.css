@@ -3,15 +3,17 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
+  align-self: center;
   pointer-events: none;
+  shape-rendering: geometricPrecision;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.blank{
+  color: #e01179;
 }
