@@ -8,9 +8,10 @@ import PropTypes from 'prop-types'
 
 export default function Navbar1(props) {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container fluid>
-        <Navbar.Brand href="/">{props.title}</Navbar.Brand>
+        
+        <Navbar.Brand href="/" >{props.title}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -41,7 +42,7 @@ export default function Navbar1(props) {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-primary">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
